@@ -1,0 +1,234 @@
+
+
+.book-on {
+    font-weight: 200;
+    margin-top: 2px;
+}
+
+.data-block {
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.book-number-title {
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.numbers-book-back {
+    width: 540px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-numbers {
+    width: 98%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+    cursor: pointer;
+    box-shadow: -2px 2px 5px rgb(150, 150, 150);
+    transition: all .2s linear; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.btn-numbers:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.btn-numbers:active {
+    background-color: rgb(240, 240, 240);
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.ds {
+    display: flex;
+    align-items: flex-end;
+}
+
+.total-book-title {
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.total-book {
+    width: 265px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.book-btn {
+    width: 265px;
+    height: 60px;
+    background-color: rgba(193, 221, 161, 0.8);
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.book-btn:hover {
+    background-color: #97ad7e;
+}
+
+.num-pos {
+    display: flex;
+    align-items: center;
+}
+
+/* week */
+
+.week {
+    display: flex;
+    justify-content: center;
+}
+
+.weekDay {
+    margin: 10px 5px 4.8px;
+    font-size: 20px;
+}
+
+.weekBtn {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.weekDayBtn {
+    width: 30px;
+    height: 30px;
+    margin: 5px 6px;
+    font-weight: 800;
+    background-color: transparent;
+    border: 1px solid #000;
+    box-shadow: -1px 1px 2px #000;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.weekDayBtn:hover {
+    background-color: #88BF48;
+}
+
+.weekDayBtn:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.weekend {
+    color: #0092ac;
+}
+
+.weekBtnLast {
+    margin-left: 3px;
+}
+
+.active-btn {
+    box-shadow: none;
+    transform: translateY(2px);
+    background-color: #88BF48;
+}
+
+.prograss-bar-book {
+    width: 45%;
+    height: 6px;
+    margin-left: 5px;
+    background-color: #aaa;
+    border-radius: 5px 0 0 0px;
+}
+
+.prograss-bar-next {
+    width: 45%;
+    height: 6px;
+    margin-left: 5px;
+    background-color: #aaa;
+    border-radius: 0 5px 0px 0;
+}
+
+.active-bar {
+    background-color: #fff;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-setnumber {
+    position: relative;
+}
+
+.bottom-btns {
+    position: absolute;
+    bottom: 7px;
+}
+
+.contaner-phone {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.block-phone {
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.title-up {
+    margin-bottom: 50px;
+}
+
+.title-phone-num {
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.text-phone-num {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.inpt-phone-num {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+

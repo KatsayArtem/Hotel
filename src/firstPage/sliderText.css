@@ -1,0 +1,40 @@
+.title-slider {
+    text-align: center;
+}
+
+.text-slider {
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 1.1em;
+}
+
+.slider_text {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+ 
+.slider-text {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    transition: all 0.2s;
+    border-radius: 20px;
+}
+ 
+.slider-text-prev {
+    transform: translateX(-100%);
+}
+ 
+.slider-text-next {
+    transform: translateX(100%);
+}

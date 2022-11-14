@@ -1,0 +1,27 @@
+.backgroundVideo {
+    position: fixed;
+    right: 0; 
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+}
+
+.backgroundBlack {
+    position: fixed;
+    right: 0; 
+    top: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -10;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+#detach-button-host, .hidden {
+    display: none;
+}

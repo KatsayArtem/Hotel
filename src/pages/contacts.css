@@ -1,0 +1,29 @@
+.background-contacts {
+    background-color: #77A4A1;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-contains {
+    width: 97%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-title {
+    font-size: 45px;
+}
+
+.contacts-text {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+.contacts-mr-top {
+    margin-top: 90px;
+}

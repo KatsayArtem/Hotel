@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container_header {
+    width: 97%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.header_ds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-image: url(../imges/logo/Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 105.8px;
+}
+
+.number_hotel {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+
+.pages_logo {
+    display: flex;
+} 
+
+.pages {
+    display: flex;
+    align-items: center;
+}
+
+.about, .numbers, .contacts {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+    color: #fff;
+    font-size: 35px;
+    width: 260px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(183, 183, 183, 0.5);
+    transition: all .1s linear;
+}
+
+.about:hover, .numbers:hover, .contacts:hover {
+    height: 85px;
+}
+
+.numbers {
+    font-size: 40px;
+    background-color: rgba(192, 192, 192, 0.8);
+}
+
+.about {
+    border-radius: 15px 0 0 15px;
+}
+
+.contacts {
+    border-radius: 0 15px 15px 0;
+}
+
+.btn_pages {
+    margin-left: 10px;
+}

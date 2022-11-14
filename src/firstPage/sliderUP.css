@@ -1,0 +1,27 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+ 
+.slider-img {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    transition: all 0.2s;
+    border-radius: 20px;
+}
+ 
+.slider-img-prev {
+    transform: translateX(-100%);
+}
+ 
+.slider-img-next {
+    transform: translateX(100%);
+}

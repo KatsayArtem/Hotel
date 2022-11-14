@@ -1,0 +1,42 @@
+
+.background-about {
+    background-color: #8D9B70;
+    width: 100%;
+    height: 100vh;
+}
+
+.ds-about {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hotel-about {
+    background-image: url(../imges/hotel-about/hotel-photo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1009px;
+    height: 526px;
+    border-radius: 20px;
+}
+
+.white {
+    color: #fff;
+}
+
+.about-hotel-title {
+    font-size: 65px;
+}
+
+.about-hotel {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.about-hotel-work {
+    font-size: 35px;
+    margin-top: 30px;
+}
