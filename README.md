@@ -1,2 +1,2 @@
-# hotel
+# Hotel
 react-project-hotel
